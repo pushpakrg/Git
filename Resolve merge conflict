@@ -1,0 +1,11 @@
+Resolve merge conflict
+
+Step 1: Checkout the source branch and merge in the changes from the target branch. Resolve conflicts.
+Command: git checkout source-branch
+Command: git pull target-branch
+
+Step 2: After the merge conflicts are resolved, stage the changes accordingly, commit the changes and push.
+Command: git commit
+Command: git push source-branch
+
+Step 3: Merge the updated pull request.
